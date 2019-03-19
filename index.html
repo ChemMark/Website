@@ -13,9 +13,13 @@
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
-      background: white;
+      background: linear-gradient(to right, rgb(152, 181, 228), rgb(47, 13, 242));
     }
     
+    .navbar-inverse .navbar-nav>li>a {
+    color: #111111;
+	}
+
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #555;
@@ -31,7 +35,11 @@
       margin: auto;
       min-height:200px;
   }
-
+  .carousel-inner img {
+	    width: 100%;
+	    margin-top: 40px;
+	    min-height: 200px;
+	}
   /* Hide the carousel text when the screen is less than 600 pixels wide */
   @media (max-width: 835px) {
     .carousel-caption {
@@ -78,23 +86,32 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="./carousal1.jpg" alt="Image">
+        <img src="./carousalenv.jpg" alt="Image">
         <div class="carousel-caption">
-          <h1>We Offer a wide range of textile Chemicals</h1>
-          <p>High quality at ideal costs</p>
+          <h1></h1>
+          <p></p>
         </div>      
       </div>
 
       <div class="item">
-        <img src="./carousal2.jpg" alt="Image">
+        <img src="./carousalt.jpg" alt="Image">
         <div class="carousel-caption">
-          <h1>We Invest in Research</h1>
-          <p>The more you know the better</p>
+          <h1></h1>
+          <p></p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="./carousalltp.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h1></h1>
+          <p></p>
         </div>      
       </div>
     </div>
@@ -111,22 +128,22 @@
 </div>
   
 <div class="container text-center">    
-  <h3>What We Do</h3><br>
+  <h3>About US</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Current Project</p>
+      <p>Textiles</p>
     </div>
     <div class="col-sm-4"> 
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>    
+      <p>Speciality Products</p>    
     </div>
     <div class="col-sm-4">
       <div class="well">
-       <p>Some text..</p>
+       <p>The Best in the industry.. </p>
       </div>
       <div class="well">
-       <p>Some text..</p>
+       <p>Giving the best results </p>
       </div>
     </div>
   </div>
