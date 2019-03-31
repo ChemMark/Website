@@ -332,7 +332,11 @@ button:focus {
   z-index: 1;
   min-height: 600px;
   position: relative;
-  background: url(../img/banner/carousalenv.jpg) no-repeat center;
+  background: linear-gradient(
+                     rgba(200,200,200, .2), 
+                     rgba(200,200,200, .1)),
+                     url(../img/banner/factory.jpg) no-repeat center;
+
   background-size: cover; }
   .home_banner_area .banner_inner {
     position: absolute;
