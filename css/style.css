@@ -338,6 +338,7 @@ button:focus {
                      url(../img/banner/factory.jpg) no-repeat center;
 
   background-size: cover; }
+
   .home_banner_area .banner_inner {
     position: absolute;
     top: 40%;
@@ -357,7 +358,73 @@ button:focus {
     .home_banner_area .banner_inner .banner_content p {
       font-size: 20px;
       color: #002347;
+      font-weight: 500; 
+      }
+  .product_banner_area {
+  z-index: 1;
+  min-height: 600px;
+  position: relative;
+  background: linear-gradient(
+                     rgba(200,200,200, .2), 
+                     rgba(200,200,200, .1)),
+                     url(../img/banner/product.jpg) no-repeat center;
+
+  background-size: cover; }
+  
+  .product_banner_area .banner_inner {
+    position: absolute;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 100%; }
+    @media (max-width: 991px) {
+      .product_banner_area .banner_inner {
+        top: 50%; } }
+    .product_banner_area .banner_inner .banner_content h2 {
+      font-size: 48px;
       font-weight: 500; }
+    .product_banner_area .banner_inner .banner_content p {
+      font-size: 20px;
+      color: #002347;
+      font-weight: 500; 
+      }
+
+.about_banner_area {
+  z-index: 1;
+  min-height: 600px;
+  position: relative;
+  background: linear-gradient(
+                     rgba(200,200,200, .2), 
+                     rgba(200,200,200, .1)),
+                     url(../img/banner/aboutus.jpg) no-repeat center;
+
+  background-size: cover; }
+  
+  .about_banner_area .banner_inner {
+    position: absolute;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 100%; }
+    @media (max-width: 991px) {
+      .about_banner_area .banner_inner {
+        top: 50%; } }
+    .about_banner_area .banner_inner .banner_content h2 {
+      font-size: 48px;
+      font-weight: 500; }
+    .about_banner_area .banner_inner .banner_content p {
+      font-size: 20px;
+      color: #002347;
+      font-weight: 500; 
+      }
 
 .blog_banner {
   min-height: 780px;
@@ -3373,3 +3440,20 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+hr {border-top: 1px solid #000; width:50%;}
+
+a {color: #000;}
+
+a:link{text-decoration:none;}
+
+#contact2{
+    letter-spacing:3px;
+}
+
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
