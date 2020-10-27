@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
 </head>
+	
 <body>
 	    <!--================ Start Header Menu Area =================-->
     <header class="header_area">
@@ -318,6 +319,9 @@
 
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
